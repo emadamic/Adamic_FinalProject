@@ -10,8 +10,8 @@ The input Excel file MUST have the following format:
 - One column for each subject (with the exception of the first column, labelled "Event") 
 
 ## INSTRUCTIONS: 
-This Python script written via argument parsing, and run via the command line. 
+This Python script is written via argument parsing, and run via the command line. 
 
->> First, navigate to directory containing the script & the data file 
+>> First, navigate to the directory containing the script & the data file (must be in the same directory). 
 
 >> python3 Adamic_FinalProj.py VIA_response_data.xlsx
