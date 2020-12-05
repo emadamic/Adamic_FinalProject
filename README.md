@@ -8,9 +8,10 @@ This script will replace invalid *negative* responses (occurring due to subject 
 This Python script is written via argument parsing, and run via the command line. 
 The input Excel file MUST have the following format: 
 
-- One sheet for each imaging run 
-- 12 rows, one for each event (4 conditions (heart, lung, stomach, target) x 3 trials each = 12 rows total)
-- One column for each subject (with the exception of the first column, labelled "Event") 
+- One sheet for each imaging run
+- Per sheet: 
+  - 12 rows, one for each event (4 conditions (heart, lung, stomach, target) x 3 trials each = 12 rows total)
+  - One column for each subject (with the exception of the first column, labelled "Event") 
 
 >> First, navigate to the directory containing the script & the data file (must be in the same directory). 
 
