@@ -12,6 +12,8 @@ The input Excel file MUST have the following format:
 - Per sheet: 
   - 12 rows, one for each event (4 conditions (heart, lung, stomach, target) x 3 trials each = 12 rows total)
   - One column for each subject (**except** the first column containing the trial (i.e. "heart_event") **must** be labelled "Event") 
+  
+Run the following in the command line: 
 
 >> First, navigate to the directory containing the script & the data file (must be in the same directory). 
 
